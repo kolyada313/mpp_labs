@@ -1,0 +1,61 @@
+en:
+  titles:
+    edit_announcement: "Edit Post"
+    genres: "Topics"
+    all_books: "All posts"
+    sign_in: "Sign In"
+    create_new_advertisement: "Create New Post"
+    search: "Search"
+  forms:
+    labels:
+      looking_for: "Looking For"
+      giving_away: "Giving Away"
+      pages: "Pages"
+      status: "Status"
+      email: "Email"
+      password: "Password"
+      advertisement_title: "Post Title:"
+      advertisement_description: "Post Description:"
+      book_page_count: "Book Page Count:"
+      advertisement_status: "Post Status:"
+      exact_title: "Exact Title:"
+      page_count: "Page Count:"
+      type: "Type"
+    submit:
+      edit_announcement: "Edit Announcement"
+      create_advertisement: "Post Advertisement"
+      sign_in: "Sign In"
+      search: "Search"
+    characters: "characters"
+  labels:
+    title: "Title"
+    authors: "Authors"
+    genre: "Genre"
+    description: "Description"
+    page_count: "Page Count"
+    status: "Status"
+    advertisement_author: "Post Author"
+    book_authors: "Book Authors"
+  links:
+    search: "Search"
+    details: "Details"
+    home_page: "Home Page"
+    personal_cabinet: "Personal Cabinet"
+    create_advertisement: "Create Post"
+    back_to_advertisements: "Back to Post"
+  buttons:
+    sign_in: "Sign In"
+    create_advertisement: "Create Post"
+    find: "Find"
+    back_to_advertisements: "Back to Post"
+    delete_advertisement: "Delete Post"
+    edit_advertisement: "Edit Post"
+  placeholders:
+    enter_email: "Enter email..."
+    enter_password: "Enter password..."
+  advertisement_statuses:
+    giving_away: "Giving Away"
+    looking_for: "Looking For"
+  messages:
+    confirm_delete_advertisement: "Are you sure you want to delete this post?"
+    created_by_you: "You created this post!"

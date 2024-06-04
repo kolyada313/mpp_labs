@@ -1,0 +1,21 @@
+en:
+  titles:
+    book_sphere: "Forum"
+    announcements: "Posts"
+    authors: "Authors"
+    users: "Users"
+    genres: "Topics"
+    add_announcement: "Add New Post"
+    my_profile: "My Profile"
+  buttons:
+    sign_out: "Sign Out"
+    sign_in: "Sign In"
+  forms:
+    labels:
+      genre_title: "Topic Title"
+  messages:
+    success: "Success!"
+    error: "Error!"
+    warning: "Warning!"
+
+

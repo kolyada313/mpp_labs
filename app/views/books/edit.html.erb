@@ -1,0 +1,47 @@
+<%= stylesheet_link_tag "dropdown" %>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+    $(function(){
+        $("#book_author_ids").select2({
+            maximumSelectionLength: 1
+        })
+    });
+</script>
+
+
+<br>
+<div class="container">
+  <h1 class="text-center"><%= t('titles.edit_announcement') %></h1>
+  <% if flash[:alert] %>
+    <div class="alert alert-danger">
+      <%= flash[:alert] %>
+    </div>
+  <% end %>
+
+  <%= form_with(model: @book, url: book_path(@book)) do |form| %>
+    <div class="field">
+      <%= form.label :title, t('labels.title') %>
+      <%= form.text_field :title, class: 'form-control', id: "book_title", maxlength: 200 %>
+      <p id="title_char_count" class="text-muted">0/200 символів</p>
+    </div>
+
+    <div class="field">
+      <%= form.label :descr, t('labels.description') %>
+      <%= form.text_area :descr, id: "book_descr", class: 'form-control', maxlength: 1000 %>
+      <p id="descr_char_count" class="text-muted">0/1000 <%= t('forms.characters') %></p>
+    </div>
+
+    <div class="field">
+      <%= form.label :genre_id, t('titles.genres') %>
+      <%= form.collection_select :genre_id, Genre.order(:title), :id, :title, {}, class: 'form-control' %>
+    </div>
+
+    <%= form.hidden_field :user_id, value: current_user.id %>
+
+    <div class="actions">
+      <%= form.submit t('titles.edit_announcement'), class: "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>

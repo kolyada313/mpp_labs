@@ -1,0 +1,19 @@
+en:
+  titles:
+    edit_genre: "Edit Topic %{title}"
+    genres: "Topics"
+    add_new_genre: "Add New Topic"
+    sign_in: "Sign In"
+    genre_title: "Topic Title"
+  forms:
+    labels:
+      genre_title: "Topic Title"
+    submit:
+      edit_genre: "Edit Topic"
+  links:
+    back_to_advertisements: "Back to Posts"
+    back_to_genres_list: "Back to Topic List"
+  buttons:
+    add_new_genre: "Add New Topic"
+    edit_genre: "Edit Topic"
+    delete_genre: "Delete Topic"

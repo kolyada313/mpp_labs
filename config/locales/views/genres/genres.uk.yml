@@ -1,0 +1,19 @@
+uk:
+  titles:
+    edit_genre: "Змінити тему %{title}"
+    genres: "Теми"
+    add_new_genre: "Додати нову тему"
+    sign_in: "Увійдіть до аккаунту!"
+    genre_title: "Назва теми"
+  forms:
+    labels:
+      genre_title: "Назва теми"
+    submit:
+      edit_genre: "Змінити тему"
+  links:
+    back_to_advertisements: "Повернутися до постів"
+    back_to_genres_list: "Повернутися до списку тем"
+  buttons:
+    add_new_genre: "Додати нову тему"
+    edit_genre: "Змінити тему"
+    delete_genre: "Видалити тему"

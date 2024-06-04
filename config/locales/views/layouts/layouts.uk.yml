@@ -1,0 +1,22 @@
+uk:
+  titles:
+    book_sphere: "Форум"
+  languages:
+    english: "English"
+    ukrainian: "Українська"
+  links:
+    announcements: "Пости"
+    users: "Користувачі"
+    genres: "Теми"
+    add_announcement: "Додати новий пост"
+    my_profile: "Мій профіль"
+  buttons:
+    sign_out: "Вийти"
+    sign_in: "Увійти"
+  forms:
+    labels:
+      genre_title: "Назва теми"
+  messages:
+    success: "Успіх!"
+    error: "Помилка!"
+    warning: "Попередження!"
